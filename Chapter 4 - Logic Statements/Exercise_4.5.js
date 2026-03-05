@@ -9,28 +9,30 @@ let prize = prompt("Please, select a number between 0 and 10");
 
 prize = parseInt(prize);
 
-const msg = "My Selection: ";
+let msg = "My Selection: ";
 
 switch(prize) {
     case 0:
     case 1:
     case 2:
-        console.log("Your result is too bad");
+        msg += "Very Bad";
         break;
     case 3:
     case 4:
     case 5:
-        console.log("Your result is bad");
+        msg += "Bad";
         break;
     case 6:
     case 7:
     case 8:
-        console.log("Your result is somewhat bad");
+        msg += "Somewhat Bad";
         break;
     case 9:
-        console.log("You did nothing beyond the minimum");
+        msg += "Ok";
         break;
     case 10:
-        console.log("Congratulations, very good grade");
+        msg += "Congratulations, very good choice";
         break;
 }
+
+console.log(msg);
