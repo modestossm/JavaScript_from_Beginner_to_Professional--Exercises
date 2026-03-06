@@ -1,0 +1,32 @@
+// 1. Set up a string variable to use as output.
+// 2. Select a number to skip, and set that number as a variable.
+// 3. Create a for loop that counts to 10.
+// 4. Add a condition to check if the value of the looped variable is equal to the number that should be skipped.
+// 5. If the number is to be skipped in the condition, continue to the next number.
+// 6. As you iterate through the values, append the new count value to the end of the main output variable.
+// 7. Output the main variable after the loop completes.
+// 8. Reuse the code, but change the continue to break and see the difference. It should now stop at the skip value.
+
+let msg1 = "Output1: ";
+let msg2 = "Output2: ";
+
+let number = 2;
+
+for(let i = 0; i < 10; i++) {
+    if(i === number) {
+        continue
+    }
+    msg1 += i + " ";
+}
+
+console.log(msg1);
+console.log(" ");
+
+for(let j = 0; j < 10; j++) {
+    if(j === number) {
+        break
+    }
+    msg2 += j + " ";
+}
+
+console.log(msg2);
