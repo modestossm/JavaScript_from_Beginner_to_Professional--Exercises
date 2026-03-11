@@ -16,4 +16,3 @@ let friend2 = new Person("Nome 2", "Sobrenome 2");
 
 console.log("hello " + friend1.firstname);
 console.log("hello " + friend2.firstname);
-
