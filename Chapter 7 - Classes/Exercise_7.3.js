@@ -16,7 +16,7 @@ class Animal {
 
 
 Animal.prototype.callAnimalVelocity = function() {
-    console.log("The " + dog.tipo + " runs at: " + dog.velocity);
+    console.log("The " + this.tipo + " runs at: " + this.velocity);
 }
 
 let dog = new Animal("dog", "au au", "50 km/h");
