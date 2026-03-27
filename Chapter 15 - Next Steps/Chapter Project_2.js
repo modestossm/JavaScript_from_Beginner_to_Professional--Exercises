@@ -16,8 +16,7 @@
 // 11. If localStorage does not have content, load the JSON file with the default values using fetch. Once the data is loaded, assign it to the global myList value. Loop through the items in myList and using maker(), output them to the page. Don't forget to invoke savetoStorage() after so that the storage will contain the same list items as are visible on the page.
 
 const output = document.querySelector(".output");
-const myValue = document.querySelector("input");
-const btn1 = document.querySelector("button");
+const myValue = document.querySelector("input"); 
 const url = "list.json";
 
 btn1.addEventListener("click", addToList);
