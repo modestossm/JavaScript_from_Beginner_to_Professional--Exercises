@@ -54,13 +54,13 @@ Each chapter has its own dedicated folder containing:
 
 | Chapter | Topic | Exercises | Chapter Projects |
 |---------|-------|:---------:|:----------------:|
-| 2 | JavaScript Essentials | 4 | 1 |
-| 3 | JavaScript Multiple Values | 5 | 1 |
-| 4 | Logic Statements | 5 | 1 |
+| 2 | JavaScript Essentials | 4 | 2 |
+| 3 | JavaScript Multiple Values | 5 | 2 |
+| 4 | Logic Statements | 5 | 3 |
 | 5 | Loops | 8 | 1 |
-| 6 | Functions | 8 | 1 |
-| 7 | Classes | 3 | 1 |
-| 8 | Built-In JavaScript Methods | 7 | 1 |
+| 6 | Functions | 8 | 2 |
+| 7 | Classes | 3 | 2 |
+| 8 | Built-In JavaScript Methods | 7 | 2 |
 | 9 | The Document Object Model | 3 | 1 |
 | 10 | Dynamic Element Manipulation Using the DOM | 10 | 3 |
 | 11 | Interactive Content and Event Listeners | 11 | 4 |
